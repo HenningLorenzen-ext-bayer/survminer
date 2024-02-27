@@ -1,3 +1,7 @@
+# override {reprex} default image upload to imgur!
+knitr::opts_knit$set(upload.fun = identity)
+
+
 library(survival)
 
 data <- survival::lung
