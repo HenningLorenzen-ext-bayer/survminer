@@ -16,8 +16,12 @@
 			"installRadian": true,
 			"installVscDebugger": true,
 			"installBspm": true
+		},
+		"ghcr.io/devcontainers-contrib/features/apt-get-packages": {
+			"packages": "r-cran-ggplot2, r-cran-ggpubr, r-cran-maxstat, r-cran-survmisc, r-cran-ggtext"
 		}
 	},
+	"overrideFeatureInstallOrder": ["ghcr.io/rocker-org/devcontainer-features/r-apt"],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
