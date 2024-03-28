@@ -30,12 +30,15 @@
 		// Settings for VS Code.
 		"vscode": {
 			"extensions": [
-				"RDebugger.r-debugger"
+				"RDebugger.r-debugger",
+				"eamodio.gitlens"
 			],
 			"settings": {
 				"r.rterm.linux": "/usr/local/bin/radian",
 				"r.bracketedPaste": true,
-				"r.plot.useHttpgd": true
+				"r.plot.useHttpgd": true,
+				"gitlens.plusFeatures.enabled": false,
+				"gitlens.ai.experimental.generateCommitMessage.enabled": false
 			}
 		}
 	},
