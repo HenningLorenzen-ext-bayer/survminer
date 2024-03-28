@@ -31,7 +31,8 @@
 		"vscode": {
 			"extensions": [
 				"RDebugger.r-debugger",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"DavidAnson.vscode-markdownlint"
 			],
 			"settings": {
 				"r.rterm.linux": "/usr/local/bin/radian",
