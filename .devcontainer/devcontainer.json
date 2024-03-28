@@ -18,7 +18,7 @@
 			"installBspm": true
 		},
 		"ghcr.io/devcontainers-contrib/features/apt-get-packages": {
-			"packages": "r-cran-ggplot2, r-cran-ggpubr, r-cran-maxstat, r-cran-survmisc, r-cran-ggtext"
+			"packages": "qpdf, r-cran-ggplot2, r-cran-ggpubr, r-cran-maxstat, r-cran-survmisc, r-cran-ggtext"
 		},
 		"ghcr.io/devcontainers-contrib/features/pandoc": {}
 	},
