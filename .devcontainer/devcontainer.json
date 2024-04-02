@@ -18,7 +18,7 @@
 			"installBspm": true
 		},
 		"ghcr.io/devcontainers-contrib/features/apt-get-packages": {
-			"packages": "qpdf, r-cran-ggplot2, r-cran-ggpubr, r-cran-maxstat, r-cran-survmisc, r-cran-ggtext, r-cran-cmprsk, r-cran-flexsurv"
+			"packages": "texlive, texlive-fonts-extra, qpdf, r-cran-ggplot2, r-cran-ggpubr, r-cran-maxstat, r-cran-survmisc, r-cran-ggtext, r-cran-cmprsk, r-cran-flexsurv"
 		},
 		"ghcr.io/devcontainers-contrib/features/pandoc": {}
 	},
