@@ -44,7 +44,8 @@
 				"r.bracketedPaste": true,
 				"r.plot.useHttpgd": true,
 				"gitlens.plusFeatures.enabled": false,
-				"gitlens.ai.experimental.generateCommitMessage.enabled": false
+				"gitlens.ai.experimental.generateCommitMessage.enabled": false,
+				"git.verboseCommit": true
 			}
 		}
 	}
