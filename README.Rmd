@@ -1,28 +1,28 @@
 ---
 output:
   md_document: 
-    variant: markdown_github
+    variant: github_document
 ---
 
 
-```{r, echo = FALSE}
+```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   message = FALSE,
   warning = FALSE,
-  comment = "#",
-  fig.path = "tools/README-",
-  fig.cap=""
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  fig.cap = ""
 )
 ```
     
-
+<!-- badges: start -->
 [![R build status](https://github.com/kassambara/survminer/workflows/R-CMD-check/badge.svg)](https://github.com/kassambara/survminer/actions)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/survminer)](https://cran.r-project.org/package=survminer)
 [![Downloads](https://cranlogs.r-pkg.org/badges/survminer)](https://cran.r-project.org/package=survminer)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/survminer?color=orange)](https://cran.r-project.org/package=survminer)
-
-      
+`r badger::badge_cran_checks()`
+<!-- badges: end -->      
       
 <br/>  
      
