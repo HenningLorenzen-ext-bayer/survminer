@@ -79,3 +79,5 @@ Collate:
     'surv_group_by.R'
     'surv_fit.R'
     'surv_median.R'
+Config/Needs/website:
+    badger
